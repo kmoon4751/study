@@ -28,6 +28,7 @@ public class study1 {
                 arr[topRow][i] = num;
                 num++;
             }
+            // 다음 반복문 때 다음 행에서 시작하도록.
             topRow++;
 
             // 아래쪽 방향으로 채우기
@@ -36,6 +37,7 @@ public class study1 {
                 arr[i][rightColumn] = num;
                 num++;
             }
+            // 배열의 열을 왼쪽 방향으로 한 칸 이동.
             rightColumn--;
 
             // 왼쪽 방향으로 채우기
